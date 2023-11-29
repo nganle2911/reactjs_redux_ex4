@@ -1,0 +1,93 @@
+/* SHOESSHOP */
+.shoesShop {
+    font-family: 'Playfair Display', serif;
+}
+
+.shoesShop .navbar {
+    background-color: #222F4F;
+}
+
+.shoesShop .navbar .container .navbar-brand {
+    color: #ECEBEF;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.7rem;
+}
+
+.shoesShop .navbar .container .collapse {
+    justify-content: end;
+}
+
+.shoesShop .navbar .container .collapse .navbar-nav .nav-link {
+    color: #ECEBEF;
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin-left: 1rem;
+    transform: scale(1);
+    transition: all .3s ease-in-out;
+}
+
+.shoesShop .navbar .container .collapse .navbar-nav .nav-link:hover {
+    transform: scale(1.2);
+    color: #D0D3E3;
+}
+
+
+/* LISTSHOES */
+.listShoes .col-3 .card .card-body .card-title {
+    text-align: start;
+}
+
+.listShoes .col-3 .card .card-body .card-text {
+    text-align: start;
+}
+
+.listShoes .col-3 .card .card-body .btn-footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.listShoes .col-3 .card .card-body .btn-footer .btn {
+    transition: all .3s ease-in-out;
+}
+
+.listShoes .col-3 .card .card-body .btn-footer .btn:hover {
+    transform: translateY(5px);
+}
+
+.listShoes .col-3 .card .card-body .btn-footer .btnView {
+    background-color: #BED0DF;
+    border-color: #BED0DF;
+    color: #222F4F;
+    font-weight: 500;
+}
+
+.listShoes .col-3 .card .card-body .btn-footer .btnAdd {
+    margin: 0;
+    background-color: #222F4F;
+    border-color: #222F4F;
+    font-weight: 500;
+    color: #ECEBEF;
+}
+
+/* OFFCANVAS */
+.cartRight .offcanvas {
+    width: 40%;
+}
+
+.cartRight .offcanvas .offcanvas-header .offcanvas-title {
+    font-size: 2rem;
+    color: #222F4F;
+}
+
+.cartRight .offcanvas .offcanvas-body .table .thead_customBg tr th {
+    background: #D4DFE9;
+    color: #222F4F;
+    text-transform: capitalize;
+}
+
+.cartRight .offcanvas .offcanvas-body .table tbody tr td:nth-child(7) {
+    cursor: pointer;
+}
+
+
